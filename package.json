@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eriknygren/vue-line-clamp-3.git"
+    "url": "git+https://github.com/neonpictures/vue-line-clamp-3.git"
   },
   "bugs": {
-    "url": "https://github.com/eriknygren/vue-line-clamp-3/issues"
+    "url": "https://github.com/neonpictures/vue-line-clamp-3/issues"
   },
-  "homepage": "https://github.com/eriknygren/vue-line-clamp-3#readme",
+  "homepage": "https://github.com/neonpictures/vue-line-clamp-3#readme",
   "sideEffects": false,
   "devDependencies": {
     "@babel/core": "^7.2.0",
