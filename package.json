@@ -1,9 +1,9 @@
 {
-  "name": "vue3-line-clamp",
+  "name": "vue-line-clamp-3",
   "version": "1.0.0",
   "description": "A vue 3 port of the original vue-line-clamp",
-  "main": "dist/vue3-line-clamp.js",
-  "browser": "dist/vue3-line-clamp.js",
+  "main": "dist/vue-line-clamp-3.js",
+  "browser": "dist/vue-line-clamp-3.js",
   "files": [
     "dist"
   ],
@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eriknygren/vue3-line-clamp.git"
+    "url": "git+https://github.com/eriknygren/vue-line-clamp-3.git"
   },
   "bugs": {
-    "url": "https://github.com/eriknygren/vue3-line-clamp/issues"
+    "url": "https://github.com/eriknygren/vue-line-clamp-3/issues"
   },
-  "homepage": "https://github.com/eriknygren/vue3-line-clamp#readme",
+  "homepage": "https://github.com/eriknygren/vue-line-clamp-3#readme",
   "sideEffects": false,
   "devDependencies": {
     "@babel/core": "^7.2.0",

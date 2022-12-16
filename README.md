@@ -1,7 +1,7 @@
 ## Vue 3 Line Clamp
 
-[![npm version](https://img.shields.io/npm/v/vue3-line-clamp.svg)](https://www.npmjs.org/package/vue3-line-clamp)
-[![npm downloads](https://img.shields.io/npm/dm/vue3-line-clamp.svg)](http://npm-stat.com/charts.html?package=vue3-line-clamp)
+[![npm version](https://img.shields.io/npm/v/vue-line-clamp-3.svg)](https://www.npmjs.org/package/vue-line-clamp-3)
+[![npm downloads](https://img.shields.io/npm/dm/vue-line-clamp-3.svg)](http://npm-stat.com/charts.html?package=vue-line-clamp-3)
 
 This a vue 3 port of the original [vue 2 line clamp](https://github.com/Frondor/vue-line-clamp)
 
@@ -10,12 +10,12 @@ A simple, fast and lightweight directive for truncating multi line texts using "
 ### Install
 
 ```bash
-npm install --save vue3-line-clamp
+npm install --save vue-line-clamp-3
 ```
 
 ```javascript
 import { createApp } from 'vue';
-import lineClamp from 'vue3-line-clamp'
+import lineClamp from 'vue-line-clamp-3'
 
 const app = createApp({});
 app.use(lineClamp, {

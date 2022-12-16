@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- Javascript bundle gets inyected right here -->
-  <script type="text/javascript" src="vue3-line-clamp.js"></script></head>
+  <script type="text/javascript" src="vue-line-clamp-3.js"></script></head>
   <body>
     <div id="app">
       <label for="range">Number of lines: {{ lines }} </label> <br />
@@ -45,7 +45,7 @@
           return { lines: 2 };
         },
       });
-      app.use(window['vue3-line-clamp'], {
+      app.use(window['vue-line-clamp-3'], {
         importCss: false,
       });
       app.mount('#app');

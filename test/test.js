@@ -1,6 +1,5 @@
 const { createApp } = require('vue');
 const VueLineClamp = require('..');
-console.log(VueLineClamp);
 
 const app = createApp({
   data: function() {
