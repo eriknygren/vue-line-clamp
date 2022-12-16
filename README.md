@@ -1,23 +1,24 @@
-## Vue Line Clamp
+## Vue 3 Line Clamp
 
-[![npm version](https://img.shields.io/npm/v/vue-line-clamp.svg)](https://www.npmjs.org/package/vue-line-clamp)
-[![npm downloads](https://img.shields.io/npm/dm/vue-line-clamp.svg)](http://npm-stat.com/charts.html?package=vue-line-clamp)
+[![npm version](https://img.shields.io/npm/v/vue3-line-clamp.svg)](https://www.npmjs.org/package/vue3-line-clamp)
+[![npm downloads](https://img.shields.io/npm/dm/vue3-line-clamp.svg)](http://npm-stat.com/charts.html?package=vue3-line-clamp)
+
+This a vue 3 port of the original [vue 2 line clamp](https://github.com/Frondor/vue-line-clamp)
 
 A simple, fast and lightweight directive for truncating multi line texts using "cross-browser" CSS strategies.
-
-### Demo: https://codepen.io/Frondor/pen/ypvPEQ
 
 ### Install
 
 ```bash
-npm install --save vue-line-clamp
+npm install --save vue3-line-clamp
 ```
 
 ```javascript
-import Vue       from 'vue'
-import lineClamp from 'vue-line-clamp'
+import { createApp } from 'vue';
+import lineClamp from 'vue3-line-clamp'
 
-Vue.use(lineClamp, {
+const app = createApp({});
+app.use(lineClamp, {
   // plugin options
 })
 ```
@@ -46,8 +47,4 @@ In some upcoming version it may be able to detect this value automatically.
 
 ### Changelog
 
-**v1.2.4** - Implemented `textOverflow` option.
-
-**v1.2.1** - Implemented `fallbackFunc` options, fixed multiple elements clamping on same page.
-
-**v1.2** - Lines parameter passed to `v-line-clamp` is now reactive.
+**v1.0.0** - Latest version of `vue-line-clamp` (1.2.4) ported to vue 3
