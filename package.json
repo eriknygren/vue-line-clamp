@@ -1,6 +1,6 @@
 {
   "name": "vue-line-clamp-3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue 3 port of the original vue-line-clamp",
   "main": "dist/vue-line-clamp-3.js",
   "browser": "dist/vue-line-clamp-3.js",
